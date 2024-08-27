@@ -7,4 +7,7 @@ describe("Es Bisiesto", () => {
     it("Devolver que 2024 es biciesto", () => {
         expect(esBisiesto(2024)).toEqual(true);
     });
+    it("Todos los años divisibles por  4 SON años bisiestos", () => {
+        expect(esBisiesto(4)).toEqual(true);
+    });
 });

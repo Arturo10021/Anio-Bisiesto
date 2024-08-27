@@ -1,8 +1,7 @@
 function esBisiesto(year) {
-    if(year === 2024){
+    if (year % 4 === 0) {
         return true;
-    }
-    if(year === 2023){
+    } else {
         return false;
     }
 }
